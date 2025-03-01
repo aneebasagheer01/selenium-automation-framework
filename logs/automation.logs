@@ -1,0 +1,834 @@
+03/01/2025 08:18:06 PM setup_and_teardown_cls - INFO :  Headless Argument Added
+03/01/2025 08:18:06 PM setup_and_teardown_cls - INFO :  Test Setup Started in Headless Mode
+03/01/2025 08:18:18 PM setup_and_teardown_cls - INFO : ***** Website Opened *****
+03/01/2025 08:18:18 PM setup_and_teardown_cls - INFO : ***** Browser Window Maximized *****
+03/01/2025 08:18:18 PM HomePage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//input[contains(@placeholder,'name')]")
+03/01/2025 08:18:20 PM HomePage - INFO : Element found visible
+03/01/2025 08:18:20 PM HomePage - INFO : ***** User Name Sent *****
+03/01/2025 08:18:20 PM HomePage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//input[contains(@placeholder,'ssword')]")
+03/01/2025 08:18:20 PM HomePage - INFO : Element found visible
+03/01/2025 08:18:20 PM HomePage - INFO : ***** Password Sent *****
+03/01/2025 08:18:20 PM HomePage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//button[normalize-space()='Login']") 
+03/01/2025 08:18:20 PM HomePage - INFO : Element found clickable
+03/01/2025 08:18:20 PM HomePage - INFO : ***** Login Button Clicked *****
+03/01/2025 08:18:20 PM DashboardPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//a[@href='/web/index.php/admin/viewAdminModule']/span[normalize-space()='Admin']") 
+03/01/2025 08:18:22 PM DashboardPage - INFO : Element found clickable
+03/01/2025 08:18:23 PM DashboardPage - INFO : ***** Admin Side Menu Clicked *****
+03/01/2025 08:18:23 PM setup_and_teardown_cls - INFO : ***** Setup Done *****
+03/01/2025 08:18:23 PM setup_and_teardown_cls - INFO :  =========== test_add_user_1___Admin____Enabled____test____Orange_Test__ Started ==========  
+03/01/2025 08:18:23 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//button[normalize-space()='Add']") 
+03/01/2025 08:18:24 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:18:24 PM AdminPage - INFO : ***** Add Button Clicked *****
+03/01/2025 08:18:24 PM AdminFormPage - DEBUG : Waiting for ALL elements to be visible with locator:('xpath', "//div[@class='oxd-select-text-input']")
+03/01/2025 08:18:25 PM AdminFormPage - INFO :  ***** 0th Selection Element i.e Role dropdown is visible *****
+03/01/2025 08:18:25 PM AdminFormPage - INFO : ***** Role Dropdown clicked *****
+03/01/2025 08:18:25 PM AdminFormPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//div[@role='listbox']//span[contains(text(),'Admin')]") 
+03/01/2025 08:18:25 PM AdminFormPage - INFO : Element found clickable
+03/01/2025 08:18:25 PM AdminFormPage - INFO : ***** Role: Admin Clicked *****
+03/01/2025 08:18:25 PM AdminFormPage - DEBUG : Waiting for ALL elements to be visible with locator:('xpath', "//div[@class='oxd-select-text-input']")
+03/01/2025 08:18:25 PM AdminFormPage - INFO :  ***** 1st Selection Element i.e Status dropdown is visible *****
+03/01/2025 08:18:25 PM AdminFormPage - INFO : ***** Satus Dropdown Clicked *****
+03/01/2025 08:18:25 PM AdminFormPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//div[@role='listbox']//span[contains(text(),'Enabled')]") 
+03/01/2025 08:18:25 PM AdminFormPage - INFO : Element found clickable
+03/01/2025 08:18:25 PM AdminFormPage - INFO : ***** Status: Enabled Clicked *****
+03/01/2025 08:18:25 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//input[@placeholder='Type for hints...']")
+03/01/2025 08:18:25 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:18:25 PM AdminFormPage - INFO : ***** Sent Employee Name *****
+03/01/2025 08:18:25 PM AdminFormPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//div[@class='oxd-autocomplete-wrapper']//span[normalize-space()='Orange Test']") 
+03/01/2025 08:18:27 PM AdminFormPage - INFO : Element found clickable
+03/01/2025 08:18:27 PM AdminFormPage - INFO : *****Employee: Orange Test Clicked *****
+03/01/2025 08:18:27 PM AdminFormPage - INFO :  ***** User Name : sdunn ***** 
+03/01/2025 08:18:27 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-form-row']//div[@class='oxd-grid-2 orangehrm-full-width-grid']//div[@class='oxd-grid-item oxd-grid-item--gutters']//div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@class='oxd-input oxd-input--active']")
+03/01/2025 08:18:27 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:18:27 PM AdminFormPage - INFO : ***** Sent Username *****
+03/01/2025 08:18:27 PM AdminFormPage - INFO : #c6Wt25
+03/01/2025 08:18:27 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-grid-item oxd-grid-item--gutters user-password-cell']//div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@type='password']")
+03/01/2025 08:18:27 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:18:27 PM AdminFormPage - INFO : ***** Sent Password *****
+03/01/2025 08:18:27 PM AdminFormPage - DEBUG : ***** Confirm Password : #c6Wt25 *****
+03/01/2025 08:18:27 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-grid-item oxd-grid-item--gutters']//div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@type='password']")
+03/01/2025 08:18:27 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:18:27 PM AdminFormPage - INFO : ***** Sent Confirm Password *****
+03/01/2025 08:18:27 PM AdminFormPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//button[normalize-space()='Save']") 
+03/01/2025 08:18:27 PM AdminFormPage - INFO : Element found clickable
+03/01/2025 08:18:27 PM AdminFormPage - INFO : ***** Save Button Clicked *****
+03/01/2025 08:18:27 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', '//p[text()="Successfully Saved"]')
+03/01/2025 08:18:29 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:18:29 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', '//p[text()="Success"]')
+03/01/2025 08:18:29 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:18:29 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//h5[normalize-space()='System Users']")
+03/01/2025 08:18:32 PM AdminPage - INFO : Element found visible
+03/01/2025 08:18:32 PM setup_and_teardown_cls - INFO :  =========== test_add_user_1___Admin____Enabled____test____Orange_Test__ Ended ==========  
+03/01/2025 08:18:32 PM setup_and_teardown_cls - INFO :  =========== test_add_user_2___ESS____Disabled____test____Orange_Test__ Started ==========  
+03/01/2025 08:18:33 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//button[normalize-space()='Add']") 
+03/01/2025 08:18:33 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:18:34 PM AdminPage - INFO : ***** Add Button Clicked *****
+03/01/2025 08:18:34 PM AdminFormPage - DEBUG : Waiting for ALL elements to be visible with locator:('xpath', "//div[@class='oxd-select-text-input']")
+03/01/2025 08:18:34 PM AdminFormPage - INFO :  ***** 0th Selection Element i.e Role dropdown is visible *****
+03/01/2025 08:18:34 PM AdminFormPage - INFO : ***** Role Dropdown clicked *****
+03/01/2025 08:18:34 PM AdminFormPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//div[@role='listbox']//span[contains(text(),'ESS')]") 
+03/01/2025 08:18:34 PM AdminFormPage - INFO : Element found clickable
+03/01/2025 08:18:35 PM AdminFormPage - INFO : ***** Role: ESS Clicked *****
+03/01/2025 08:18:35 PM AdminFormPage - DEBUG : Waiting for ALL elements to be visible with locator:('xpath', "//div[@class='oxd-select-text-input']")
+03/01/2025 08:18:35 PM AdminFormPage - INFO :  ***** 1st Selection Element i.e Status dropdown is visible *****
+03/01/2025 08:18:35 PM AdminFormPage - INFO : ***** Satus Dropdown Clicked *****
+03/01/2025 08:18:35 PM AdminFormPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//div[@role='listbox']//span[contains(text(),'Disabled')]") 
+03/01/2025 08:18:35 PM AdminFormPage - INFO : Element found clickable
+03/01/2025 08:18:35 PM AdminFormPage - INFO : ***** Status: Disabled Clicked *****
+03/01/2025 08:18:35 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//input[@placeholder='Type for hints...']")
+03/01/2025 08:18:35 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:18:35 PM AdminFormPage - INFO : ***** Sent Employee Name *****
+03/01/2025 08:18:35 PM AdminFormPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//div[@class='oxd-autocomplete-wrapper']//span[normalize-space()='Orange Test']") 
+03/01/2025 08:18:36 PM AdminFormPage - INFO : Element found clickable
+03/01/2025 08:18:36 PM AdminFormPage - INFO : *****Employee: Orange Test Clicked *****
+03/01/2025 08:18:36 PM AdminFormPage - INFO :  ***** User Name : linda57 ***** 
+03/01/2025 08:18:36 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-form-row']//div[@class='oxd-grid-2 orangehrm-full-width-grid']//div[@class='oxd-grid-item oxd-grid-item--gutters']//div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@class='oxd-input oxd-input--active']")
+03/01/2025 08:18:36 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:18:37 PM AdminFormPage - INFO : ***** Sent Username *****
+03/01/2025 08:18:37 PM AdminFormPage - INFO : (qi0!Ll
+03/01/2025 08:18:37 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-grid-item oxd-grid-item--gutters user-password-cell']//div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@type='password']")
+03/01/2025 08:18:37 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:18:37 PM AdminFormPage - INFO : ***** Sent Password *****
+03/01/2025 08:18:37 PM AdminFormPage - DEBUG : ***** Confirm Password : (qi0!Ll *****
+03/01/2025 08:18:37 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-grid-item oxd-grid-item--gutters']//div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@type='password']")
+03/01/2025 08:18:37 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:18:37 PM AdminFormPage - INFO : ***** Sent Confirm Password *****
+03/01/2025 08:18:37 PM AdminFormPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//button[normalize-space()='Save']") 
+03/01/2025 08:18:37 PM AdminFormPage - INFO : Element found clickable
+03/01/2025 08:18:37 PM AdminFormPage - INFO : ***** Save Button Clicked *****
+03/01/2025 08:18:37 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', '//p[text()="Successfully Saved"]')
+03/01/2025 08:18:39 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:18:39 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', '//p[text()="Success"]')
+03/01/2025 08:18:39 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:18:39 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//h5[normalize-space()='System Users']")
+03/01/2025 08:18:43 PM AdminPage - INFO : Element found visible
+03/01/2025 08:18:43 PM setup_and_teardown_cls - INFO :  =========== test_add_user_2___ESS____Disabled____test____Orange_Test__ Ended ==========  
+03/01/2025 08:18:43 PM setup_and_teardown_cls - INFO :  =========== test_add_user_3___Admin____Disabled____test____Orange_Test__ Started ==========  
+03/01/2025 08:18:43 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//button[normalize-space()='Add']") 
+03/01/2025 08:18:44 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:18:45 PM AdminPage - INFO : ***** Add Button Clicked *****
+03/01/2025 08:18:45 PM AdminFormPage - DEBUG : Waiting for ALL elements to be visible with locator:('xpath', "//div[@class='oxd-select-text-input']")
+03/01/2025 08:18:45 PM AdminFormPage - INFO :  ***** 0th Selection Element i.e Role dropdown is visible *****
+03/01/2025 08:18:45 PM AdminFormPage - INFO : ***** Role Dropdown clicked *****
+03/01/2025 08:18:45 PM AdminFormPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//div[@role='listbox']//span[contains(text(),'Admin')]") 
+03/01/2025 08:18:45 PM AdminFormPage - INFO : Element found clickable
+03/01/2025 08:18:45 PM AdminFormPage - INFO : ***** Role: Admin Clicked *****
+03/01/2025 08:18:45 PM AdminFormPage - DEBUG : Waiting for ALL elements to be visible with locator:('xpath', "//div[@class='oxd-select-text-input']")
+03/01/2025 08:18:45 PM AdminFormPage - INFO :  ***** 1st Selection Element i.e Status dropdown is visible *****
+03/01/2025 08:18:45 PM AdminFormPage - INFO : ***** Satus Dropdown Clicked *****
+03/01/2025 08:18:45 PM AdminFormPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//div[@role='listbox']//span[contains(text(),'Disabled')]") 
+03/01/2025 08:18:45 PM AdminFormPage - INFO : Element found clickable
+03/01/2025 08:18:45 PM AdminFormPage - INFO : ***** Status: Disabled Clicked *****
+03/01/2025 08:18:45 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//input[@placeholder='Type for hints...']")
+03/01/2025 08:18:45 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:18:45 PM AdminFormPage - INFO : ***** Sent Employee Name *****
+03/01/2025 08:18:45 PM AdminFormPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//div[@class='oxd-autocomplete-wrapper']//span[normalize-space()='Orange Test']") 
+03/01/2025 08:18:47 PM AdminFormPage - INFO : Element found clickable
+03/01/2025 08:18:47 PM AdminFormPage - INFO : *****Employee: Orange Test Clicked *****
+03/01/2025 08:18:47 PM AdminFormPage - INFO :  ***** User Name : codygarcia ***** 
+03/01/2025 08:18:47 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-form-row']//div[@class='oxd-grid-2 orangehrm-full-width-grid']//div[@class='oxd-grid-item oxd-grid-item--gutters']//div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@class='oxd-input oxd-input--active']")
+03/01/2025 08:18:47 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:18:47 PM AdminFormPage - INFO : ***** Sent Username *****
+03/01/2025 08:18:47 PM AdminFormPage - INFO : @z7KYIq
+03/01/2025 08:18:47 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-grid-item oxd-grid-item--gutters user-password-cell']//div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@type='password']")
+03/01/2025 08:18:47 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:18:47 PM AdminFormPage - INFO : ***** Sent Password *****
+03/01/2025 08:18:47 PM AdminFormPage - DEBUG : ***** Confirm Password : @z7KYIq *****
+03/01/2025 08:18:47 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-grid-item oxd-grid-item--gutters']//div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@type='password']")
+03/01/2025 08:18:47 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:18:48 PM AdminFormPage - INFO : ***** Sent Confirm Password *****
+03/01/2025 08:18:48 PM AdminFormPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//button[normalize-space()='Save']") 
+03/01/2025 08:18:48 PM AdminFormPage - INFO : Element found clickable
+03/01/2025 08:18:48 PM AdminFormPage - INFO : ***** Save Button Clicked *****
+03/01/2025 08:18:48 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', '//p[text()="Successfully Saved"]')
+03/01/2025 08:18:50 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:18:50 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', '//p[text()="Success"]')
+03/01/2025 08:18:50 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:18:50 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//h5[normalize-space()='System Users']")
+03/01/2025 08:18:53 PM AdminPage - INFO : Element found visible
+03/01/2025 08:18:53 PM setup_and_teardown_cls - INFO :  =========== test_add_user_3___Admin____Disabled____test____Orange_Test__ Ended ==========  
+03/01/2025 08:18:53 PM setup_and_teardown_cls - INFO :  =========== test_add_user_4___ESS____Enabled____test____Orange_Test__ Started ==========  
+03/01/2025 08:18:54 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//button[normalize-space()='Add']") 
+03/01/2025 08:18:54 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:18:55 PM AdminPage - INFO : ***** Add Button Clicked *****
+03/01/2025 08:18:55 PM AdminFormPage - DEBUG : Waiting for ALL elements to be visible with locator:('xpath', "//div[@class='oxd-select-text-input']")
+03/01/2025 08:18:56 PM AdminFormPage - INFO :  ***** 0th Selection Element i.e Role dropdown is visible *****
+03/01/2025 08:18:56 PM AdminFormPage - INFO : ***** Role Dropdown clicked *****
+03/01/2025 08:18:56 PM AdminFormPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//div[@role='listbox']//span[contains(text(),'ESS')]") 
+03/01/2025 08:18:56 PM AdminFormPage - INFO : Element found clickable
+03/01/2025 08:18:56 PM AdminFormPage - INFO : ***** Role: ESS Clicked *****
+03/01/2025 08:18:56 PM AdminFormPage - DEBUG : Waiting for ALL elements to be visible with locator:('xpath', "//div[@class='oxd-select-text-input']")
+03/01/2025 08:18:56 PM AdminFormPage - INFO :  ***** 1st Selection Element i.e Status dropdown is visible *****
+03/01/2025 08:18:56 PM AdminFormPage - INFO : ***** Satus Dropdown Clicked *****
+03/01/2025 08:18:56 PM AdminFormPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//div[@role='listbox']//span[contains(text(),'Enabled')]") 
+03/01/2025 08:18:56 PM AdminFormPage - INFO : Element found clickable
+03/01/2025 08:18:56 PM AdminFormPage - INFO : ***** Status: Enabled Clicked *****
+03/01/2025 08:18:56 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//input[@placeholder='Type for hints...']")
+03/01/2025 08:18:56 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:18:56 PM AdminFormPage - INFO : ***** Sent Employee Name *****
+03/01/2025 08:18:56 PM AdminFormPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//div[@class='oxd-autocomplete-wrapper']//span[normalize-space()='Orange Test']") 
+03/01/2025 08:18:58 PM AdminFormPage - INFO : Element found clickable
+03/01/2025 08:18:58 PM AdminFormPage - INFO : *****Employee: Orange Test Clicked *****
+03/01/2025 08:18:58 PM AdminFormPage - INFO :  ***** User Name : bmitchell ***** 
+03/01/2025 08:18:58 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-form-row']//div[@class='oxd-grid-2 orangehrm-full-width-grid']//div[@class='oxd-grid-item oxd-grid-item--gutters']//div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@class='oxd-input oxd-input--active']")
+03/01/2025 08:18:58 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:18:58 PM AdminFormPage - INFO : ***** Sent Username *****
+03/01/2025 08:18:58 PM AdminFormPage - INFO : U&3NOWn
+03/01/2025 08:18:58 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-grid-item oxd-grid-item--gutters user-password-cell']//div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@type='password']")
+03/01/2025 08:18:58 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:18:58 PM AdminFormPage - INFO : ***** Sent Password *****
+03/01/2025 08:18:58 PM AdminFormPage - DEBUG : ***** Confirm Password : U&3NOWn *****
+03/01/2025 08:18:58 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-grid-item oxd-grid-item--gutters']//div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@type='password']")
+03/01/2025 08:18:58 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:18:58 PM AdminFormPage - INFO : ***** Sent Confirm Password *****
+03/01/2025 08:18:58 PM AdminFormPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//button[normalize-space()='Save']") 
+03/01/2025 08:18:58 PM AdminFormPage - INFO : Element found clickable
+03/01/2025 08:18:59 PM AdminFormPage - INFO : ***** Save Button Clicked *****
+03/01/2025 08:18:59 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', '//p[text()="Successfully Saved"]')
+03/01/2025 08:19:01 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:19:01 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', '//p[text()="Success"]')
+03/01/2025 08:19:01 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:19:01 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//h5[normalize-space()='System Users']")
+03/01/2025 08:19:04 PM AdminPage - INFO : Element found visible
+03/01/2025 08:19:04 PM setup_and_teardown_cls - INFO :  =========== test_add_user_4___ESS____Enabled____test____Orange_Test__ Ended ==========  
+03/01/2025 08:19:04 PM setup_and_teardown_cls - INFO :  =========== test_by_role_and_status_filter_valid_1___Admin____Enabled__ Started ==========  
+03/01/2025 08:19:04 PM AdminPage - DEBUG : Waiting for ALL elements to be visible with locator:('xpath', "//div[@class='oxd-select-text-input']")
+03/01/2025 08:19:05 PM AdminPage - INFO :  ***** Role Selection Element is Visible *****  
+03/01/2025 08:19:05 PM AdminPage - INFO : ***** Role Drop Down Clicked *****
+03/01/2025 08:19:05 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//div[@class='oxd-select-option'][@role='option'][normalize-space()='Admin']") 
+03/01/2025 08:19:05 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:19:05 PM AdminPage - INFO : ***** Role: Admin Option Clicked *****
+03/01/2025 08:19:05 PM AdminPage - DEBUG : Waiting for ALL elements to be visible with locator:('xpath', "//div[@class='oxd-select-text-input']")
+03/01/2025 08:19:05 PM AdminPage - INFO :  ***** Status Selection Element is Visible *****  
+03/01/2025 08:19:05 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', '//div[@role="option"]/span[normalize-space()="Enabled"]') 
+03/01/2025 08:19:05 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:19:05 PM AdminPage - INFO : *****Status: Enabled Option Clicked *****
+03/01/2025 08:19:05 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//button[normalize-space()='Search']") 
+03/01/2025 08:19:05 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:19:05 PM AdminPage - INFO : ***** Search Button Clicked *****
+03/01/2025 08:19:05 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-table-body']")
+03/01/2025 08:19:06 PM AdminPage - INFO : Element found visible
+03/01/2025 08:19:06 PM AdminPage - INFO :  ***** Table Body is Visible Now *****
+03/01/2025 08:19:06 PM AdminPage - DEBUG : Waiting for all elements to present with locator: ('xpath', "//div[@class='oxd-table-card']//div[@role='row']//div[@role='cell'][5]")
+03/01/2025 08:19:06 PM AdminPage - INFO : Presence of All Elements Located
+03/01/2025 08:19:06 PM AdminPage - DEBUG : Waiting for all elements to present with locator: ('xpath', "//div[@class='oxd-table-card']//div[@role='row']//div[@role='cell'][3]")
+03/01/2025 08:19:06 PM AdminPage - INFO : Presence of All Elements Located
+03/01/2025 08:19:06 PM setup_and_teardown_cls - INFO :  =========== test_by_role_and_status_filter_valid_1___Admin____Enabled__ Ended ==========  
+03/01/2025 08:19:06 PM setup_and_teardown_cls - INFO :  =========== test_by_role_and_status_filter_valid_2___ESS____Enabled__ Started ==========  
+03/01/2025 08:19:07 PM AdminPage - DEBUG : Waiting for ALL elements to be visible with locator:('xpath', "//div[@class='oxd-select-text-input']")
+03/01/2025 08:19:07 PM AdminPage - INFO :  ***** Role Selection Element is Visible *****  
+03/01/2025 08:19:07 PM AdminPage - INFO : ***** Role Drop Down Clicked *****
+03/01/2025 08:19:07 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//div[@class='oxd-select-option'][@role='option'][normalize-space()='ESS']") 
+03/01/2025 08:19:07 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:19:07 PM AdminPage - INFO : ***** Role: ESS Option Clicked *****
+03/01/2025 08:19:07 PM AdminPage - DEBUG : Waiting for ALL elements to be visible with locator:('xpath', "//div[@class='oxd-select-text-input']")
+03/01/2025 08:19:07 PM AdminPage - INFO :  ***** Status Selection Element is Visible *****  
+03/01/2025 08:19:07 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', '//div[@role="option"]/span[normalize-space()="Enabled"]') 
+03/01/2025 08:19:07 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:19:07 PM AdminPage - INFO : *****Status: Enabled Option Clicked *****
+03/01/2025 08:19:07 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//button[normalize-space()='Search']") 
+03/01/2025 08:19:08 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:19:08 PM AdminPage - INFO : ***** Search Button Clicked *****
+03/01/2025 08:19:08 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-table-body']")
+03/01/2025 08:19:08 PM AdminPage - INFO : Element found visible
+03/01/2025 08:19:08 PM AdminPage - INFO :  ***** Table Body is Visible Now *****
+03/01/2025 08:19:08 PM AdminPage - DEBUG : Waiting for all elements to present with locator: ('xpath', "//div[@class='oxd-table-card']//div[@role='row']//div[@role='cell'][5]")
+03/01/2025 08:19:08 PM AdminPage - INFO : Presence of All Elements Located
+03/01/2025 08:19:08 PM AdminPage - DEBUG : Waiting for all elements to present with locator: ('xpath', "//div[@class='oxd-table-card']//div[@role='row']//div[@role='cell'][3]")
+03/01/2025 08:19:08 PM AdminPage - INFO : Presence of All Elements Located
+03/01/2025 08:19:08 PM setup_and_teardown_cls - INFO :  =========== test_by_role_and_status_filter_valid_2___ESS____Enabled__ Ended ==========  
+03/01/2025 08:19:08 PM setup_and_teardown_cls - INFO :  =========== test_role_filter_1___Admin__ Started ==========  
+03/01/2025 08:19:09 PM AdminPage - DEBUG : Waiting for ALL elements to be visible with locator:('xpath', "//div[@class='oxd-select-text-input']")
+03/01/2025 08:19:09 PM AdminPage - INFO :  ***** Role Selection Element is Visible *****  
+03/01/2025 08:19:09 PM AdminPage - INFO : ***** Role Drop Down Clicked *****
+03/01/2025 08:19:09 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//div[@class='oxd-select-option'][@role='option'][normalize-space()='Admin']") 
+03/01/2025 08:19:09 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:19:09 PM AdminPage - INFO : ***** Role: Admin Option Clicked *****
+03/01/2025 08:19:09 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//button[normalize-space()='Search']") 
+03/01/2025 08:19:09 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:19:09 PM AdminPage - INFO : ***** Search Button Clicked *****
+03/01/2025 08:19:09 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-table-body']")
+03/01/2025 08:19:10 PM AdminPage - INFO : Element found visible
+03/01/2025 08:19:10 PM AdminPage - INFO :  ***** Table Body is Visible Now *****
+03/01/2025 08:19:10 PM AdminPage - DEBUG : Waiting for all elements to present with locator: ('xpath', "//div[@class='oxd-table-card']//div[@role='row']//div[@role='cell'][3]")
+03/01/2025 08:19:10 PM AdminPage - INFO : Presence of All Elements Located
+03/01/2025 08:19:10 PM setup_and_teardown_cls - INFO :  =========== test_role_filter_1___Admin__ Ended ==========  
+03/01/2025 08:19:10 PM setup_and_teardown_cls - INFO :  =========== test_role_filter_2___ESS__ Started ==========  
+03/01/2025 08:19:10 PM AdminPage - DEBUG : Waiting for ALL elements to be visible with locator:('xpath', "//div[@class='oxd-select-text-input']")
+03/01/2025 08:19:11 PM AdminPage - INFO :  ***** Role Selection Element is Visible *****  
+03/01/2025 08:19:11 PM AdminPage - INFO : ***** Role Drop Down Clicked *****
+03/01/2025 08:19:11 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//div[@class='oxd-select-option'][@role='option'][normalize-space()='ESS']") 
+03/01/2025 08:19:11 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:19:11 PM AdminPage - INFO : ***** Role: ESS Option Clicked *****
+03/01/2025 08:19:11 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//button[normalize-space()='Search']") 
+03/01/2025 08:19:11 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:19:11 PM AdminPage - INFO : ***** Search Button Clicked *****
+03/01/2025 08:19:11 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-table-body']")
+03/01/2025 08:19:12 PM AdminPage - INFO : Element found visible
+03/01/2025 08:19:12 PM AdminPage - INFO :  ***** Table Body is Visible Now *****
+03/01/2025 08:19:12 PM AdminPage - DEBUG : Waiting for all elements to present with locator: ('xpath', "//div[@class='oxd-table-card']//div[@role='row']//div[@role='cell'][3]")
+03/01/2025 08:19:12 PM AdminPage - INFO : Presence of All Elements Located
+03/01/2025 08:19:12 PM setup_and_teardown_cls - INFO :  =========== test_role_filter_2___ESS__ Ended ==========  
+03/01/2025 08:19:12 PM setup_and_teardown_cls - INFO :  =========== test_search_by_role_and_username_invalid_1___Admin____nosuchAdminuser__ Started ==========  
+03/01/2025 08:19:12 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@class='oxd-input oxd-input--active']")
+03/01/2025 08:19:13 PM AdminPage - INFO : Element found visible
+03/01/2025 08:19:13 PM AdminPage - INFO : ***** Sent User Name *****
+03/01/2025 08:19:13 PM AdminPage - DEBUG : Waiting for ALL elements to be visible with locator:('xpath', "//div[@class='oxd-select-text-input']")
+03/01/2025 08:19:13 PM AdminPage - INFO :  ***** Role Selection Element is Visible *****  
+03/01/2025 08:19:13 PM AdminPage - INFO : ***** Role Drop Down Clicked *****
+03/01/2025 08:19:13 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//div[@class='oxd-select-option'][@role='option'][normalize-space()='Admin']") 
+03/01/2025 08:19:13 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:19:13 PM AdminPage - INFO : ***** Role: Admin Option Clicked *****
+03/01/2025 08:19:13 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//button[normalize-space()='Search']") 
+03/01/2025 08:19:13 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:19:13 PM AdminPage - INFO : ***** Search Button Clicked *****
+03/01/2025 08:19:13 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-table-body']")
+03/01/2025 08:19:14 PM AdminPage - INFO : Element found visible
+03/01/2025 08:19:14 PM AdminPage - INFO :  ***** Table Body is Visible Now *****
+03/01/2025 08:19:14 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', '//*[@id="oxd-toaster_1"]//p[normalize-space()="Info"]')
+03/01/2025 08:19:14 PM AdminPage - INFO : Element found visible
+03/01/2025 08:19:14 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', '//*[@id="oxd-toaster_1"]//p[normalize-space()="No Records Found"]')
+03/01/2025 08:19:14 PM AdminPage - INFO : Element found visible
+03/01/2025 08:19:14 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='orangehrm-horizontal-padding orangehrm-vertical-padding']/span[.='No Records Found']")
+03/01/2025 08:19:14 PM AdminPage - INFO : Element found visible
+03/01/2025 08:19:14 PM setup_and_teardown_cls - INFO :  =========== test_search_by_role_and_username_invalid_1___Admin____nosuchAdminuser__ Ended ==========  
+03/01/2025 08:19:14 PM setup_and_teardown_cls - INFO :  =========== test_search_by_role_and_username_invalid_2___ESS____nosuchESSuser__ Started ==========  
+03/01/2025 08:19:14 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@class='oxd-input oxd-input--active']")
+03/01/2025 08:19:15 PM AdminPage - INFO : Element found visible
+03/01/2025 08:19:15 PM AdminPage - INFO : ***** Sent User Name *****
+03/01/2025 08:19:15 PM AdminPage - DEBUG : Waiting for ALL elements to be visible with locator:('xpath', "//div[@class='oxd-select-text-input']")
+03/01/2025 08:19:15 PM AdminPage - INFO :  ***** Role Selection Element is Visible *****  
+03/01/2025 08:19:15 PM AdminPage - INFO : ***** Role Drop Down Clicked *****
+03/01/2025 08:19:15 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//div[@class='oxd-select-option'][@role='option'][normalize-space()='ESS']") 
+03/01/2025 08:19:15 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:19:15 PM AdminPage - INFO : ***** Role: ESS Option Clicked *****
+03/01/2025 08:19:15 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//button[normalize-space()='Search']") 
+03/01/2025 08:19:15 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:19:15 PM AdminPage - INFO : ***** Search Button Clicked *****
+03/01/2025 08:19:15 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-table-body']")
+03/01/2025 08:19:16 PM AdminPage - INFO : Element found visible
+03/01/2025 08:19:16 PM AdminPage - INFO :  ***** Table Body is Visible Now *****
+03/01/2025 08:19:16 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', '//*[@id="oxd-toaster_1"]//p[normalize-space()="Info"]')
+03/01/2025 08:19:16 PM AdminPage - INFO : Element found visible
+03/01/2025 08:19:16 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', '//*[@id="oxd-toaster_1"]//p[normalize-space()="No Records Found"]')
+03/01/2025 08:19:16 PM AdminPage - INFO : Element found visible
+03/01/2025 08:19:16 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='orangehrm-horizontal-padding orangehrm-vertical-padding']/span[.='No Records Found']")
+03/01/2025 08:19:16 PM AdminPage - INFO : Element found visible
+03/01/2025 08:19:16 PM setup_and_teardown_cls - INFO :  =========== test_search_by_role_and_username_invalid_2___ESS____nosuchESSuser__ Ended ==========  
+03/01/2025 08:19:16 PM setup_and_teardown_cls - INFO :  =========== test_search_by_role_and_username_valid_1___Admin____Admin__ Started ==========  
+03/01/2025 08:19:16 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@class='oxd-input oxd-input--active']")
+03/01/2025 08:19:17 PM AdminPage - INFO : Element found visible
+03/01/2025 08:19:17 PM AdminPage - INFO : ***** Sent User Name *****
+03/01/2025 08:19:17 PM AdminPage - DEBUG : Waiting for ALL elements to be visible with locator:('xpath', "//div[@class='oxd-select-text-input']")
+03/01/2025 08:19:17 PM AdminPage - INFO :  ***** Role Selection Element is Visible *****  
+03/01/2025 08:19:17 PM AdminPage - INFO : ***** Role Drop Down Clicked *****
+03/01/2025 08:19:17 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//div[@class='oxd-select-option'][@role='option'][normalize-space()='Admin']") 
+03/01/2025 08:19:17 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:19:17 PM AdminPage - INFO : ***** Role: Admin Option Clicked *****
+03/01/2025 08:19:17 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//button[normalize-space()='Search']") 
+03/01/2025 08:19:17 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:19:17 PM AdminPage - INFO : ***** Search Button Clicked *****
+03/01/2025 08:19:17 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-table-body']")
+03/01/2025 08:19:18 PM AdminPage - INFO : Element found visible
+03/01/2025 08:19:18 PM AdminPage - INFO :  ***** Table Body is Visible Now *****
+03/01/2025 08:19:18 PM AdminPage - DEBUG : Waiting for all elements to present with locator: ('xpath', "//div[@class='oxd-table-card']//div[@role='row']//div[@role='cell'][3]")
+03/01/2025 08:19:18 PM AdminPage - INFO : Presence of All Elements Located
+03/01/2025 08:19:18 PM AdminPage - DEBUG : Waiting for all elements to present with locator: ('xpath', "//div[@class='oxd-table-card']//div[@role='row']//div[@role='cell'][2]")
+03/01/2025 08:19:18 PM AdminPage - INFO : Presence of All Elements Located
+03/01/2025 08:19:18 PM setup_and_teardown_cls - INFO :  =========== test_search_by_role_and_username_valid_1___Admin____Admin__ Ended ==========  
+03/01/2025 08:19:18 PM setup_and_teardown_cls - INFO :  =========== test_search_by_role_and_username_valid_2___ESS____FMLName__ Started ==========  
+03/01/2025 08:19:18 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@class='oxd-input oxd-input--active']")
+03/01/2025 08:19:19 PM AdminPage - INFO : Element found visible
+03/01/2025 08:19:19 PM AdminPage - INFO : ***** Sent User Name *****
+03/01/2025 08:19:19 PM AdminPage - DEBUG : Waiting for ALL elements to be visible with locator:('xpath', "//div[@class='oxd-select-text-input']")
+03/01/2025 08:19:19 PM AdminPage - INFO :  ***** Role Selection Element is Visible *****  
+03/01/2025 08:19:19 PM AdminPage - INFO : ***** Role Drop Down Clicked *****
+03/01/2025 08:19:19 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//div[@class='oxd-select-option'][@role='option'][normalize-space()='ESS']") 
+03/01/2025 08:19:19 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:19:19 PM AdminPage - INFO : ***** Role: ESS Option Clicked *****
+03/01/2025 08:19:19 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//button[normalize-space()='Search']") 
+03/01/2025 08:19:19 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:19:19 PM AdminPage - INFO : ***** Search Button Clicked *****
+03/01/2025 08:19:19 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-table-body']")
+03/01/2025 08:19:20 PM AdminPage - INFO : Element found visible
+03/01/2025 08:19:20 PM AdminPage - INFO :  ***** Table Body is Visible Now *****
+03/01/2025 08:19:20 PM AdminPage - DEBUG : Waiting for all elements to present with locator: ('xpath', "//div[@class='oxd-table-card']//div[@role='row']//div[@role='cell'][3]")
+03/01/2025 08:19:50 PM AdminPage - ERROR : While looking for presence of all elements - TimeoutException Occurred.
+03/01/2025 08:19:50 PM setup_and_teardown_cls - INFO :  =========== test_search_by_role_and_username_valid_2___ESS____FMLName__ Ended ==========  
+03/01/2025 08:19:50 PM setup_and_teardown_cls - INFO :  =========== test_search_by_role_and_username_valid_2___ESS____FMLName__ Started ==========  
+03/01/2025 08:19:51 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@class='oxd-input oxd-input--active']")
+03/01/2025 08:19:51 PM AdminPage - INFO : Element found visible
+03/01/2025 08:19:51 PM AdminPage - INFO : ***** Sent User Name *****
+03/01/2025 08:19:51 PM AdminPage - DEBUG : Waiting for ALL elements to be visible with locator:('xpath', "//div[@class='oxd-select-text-input']")
+03/01/2025 08:19:51 PM AdminPage - INFO :  ***** Role Selection Element is Visible *****  
+03/01/2025 08:19:51 PM AdminPage - INFO : ***** Role Drop Down Clicked *****
+03/01/2025 08:19:51 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//div[@class='oxd-select-option'][@role='option'][normalize-space()='ESS']") 
+03/01/2025 08:19:51 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:19:51 PM AdminPage - INFO : ***** Role: ESS Option Clicked *****
+03/01/2025 08:19:51 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//button[normalize-space()='Search']") 
+03/01/2025 08:19:52 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:19:52 PM AdminPage - INFO : ***** Search Button Clicked *****
+03/01/2025 08:19:52 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-table-body']")
+03/01/2025 08:19:52 PM AdminPage - INFO : Element found visible
+03/01/2025 08:19:52 PM AdminPage - INFO :  ***** Table Body is Visible Now *****
+03/01/2025 08:19:52 PM AdminPage - DEBUG : Waiting for all elements to present with locator: ('xpath', "//div[@class='oxd-table-card']//div[@role='row']//div[@role='cell'][3]")
+03/01/2025 08:20:22 PM AdminPage - ERROR : While looking for presence of all elements - TimeoutException Occurred.
+03/01/2025 08:20:23 PM setup_and_teardown_cls - INFO :  =========== test_search_by_role_and_username_valid_2___ESS____FMLName__ Ended ==========  
+03/01/2025 08:20:23 PM setup_and_teardown_cls - INFO :  =========== test_search_by_role_and_username_valid_2___ESS____FMLName__ Started ==========  
+03/01/2025 08:20:23 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@class='oxd-input oxd-input--active']")
+03/01/2025 08:20:24 PM AdminPage - INFO : Element found visible
+03/01/2025 08:20:24 PM AdminPage - INFO : ***** Sent User Name *****
+03/01/2025 08:20:24 PM AdminPage - DEBUG : Waiting for ALL elements to be visible with locator:('xpath', "//div[@class='oxd-select-text-input']")
+03/01/2025 08:20:24 PM AdminPage - INFO :  ***** Role Selection Element is Visible *****  
+03/01/2025 08:20:24 PM AdminPage - INFO : ***** Role Drop Down Clicked *****
+03/01/2025 08:20:24 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//div[@class='oxd-select-option'][@role='option'][normalize-space()='ESS']") 
+03/01/2025 08:20:24 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:20:24 PM AdminPage - INFO : ***** Role: ESS Option Clicked *****
+03/01/2025 08:20:24 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//button[normalize-space()='Search']") 
+03/01/2025 08:20:24 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:20:24 PM AdminPage - INFO : ***** Search Button Clicked *****
+03/01/2025 08:20:24 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-table-body']")
+03/01/2025 08:20:25 PM AdminPage - INFO : Element found visible
+03/01/2025 08:20:25 PM AdminPage - INFO :  ***** Table Body is Visible Now *****
+03/01/2025 08:20:25 PM AdminPage - DEBUG : Waiting for all elements to present with locator: ('xpath', "//div[@class='oxd-table-card']//div[@role='row']//div[@role='cell'][3]")
+03/01/2025 08:20:55 PM AdminPage - ERROR : While looking for presence of all elements - TimeoutException Occurred.
+03/01/2025 08:20:56 PM setup_and_teardown_cls - INFO :  =========== test_search_by_role_and_username_valid_2___ESS____FMLName__ Ended ==========  
+03/01/2025 08:20:56 PM setup_and_teardown_cls - INFO :  =========== test_search_by_role_and_username_valid_3___Admin____Admin__ Started ==========  
+03/01/2025 08:20:56 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@class='oxd-input oxd-input--active']")
+03/01/2025 08:20:57 PM AdminPage - INFO : Element found visible
+03/01/2025 08:20:57 PM AdminPage - INFO : ***** Sent User Name *****
+03/01/2025 08:20:57 PM AdminPage - DEBUG : Waiting for ALL elements to be visible with locator:('xpath', "//div[@class='oxd-select-text-input']")
+03/01/2025 08:20:57 PM AdminPage - INFO :  ***** Role Selection Element is Visible *****  
+03/01/2025 08:20:57 PM AdminPage - INFO : ***** Role Drop Down Clicked *****
+03/01/2025 08:20:57 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//div[@class='oxd-select-option'][@role='option'][normalize-space()='Admin']") 
+03/01/2025 08:20:57 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:20:57 PM AdminPage - INFO : ***** Role: Admin Option Clicked *****
+03/01/2025 08:20:57 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//button[normalize-space()='Search']") 
+03/01/2025 08:20:57 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:20:57 PM AdminPage - INFO : ***** Search Button Clicked *****
+03/01/2025 08:20:57 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-table-body']")
+03/01/2025 08:20:58 PM AdminPage - INFO : Element found visible
+03/01/2025 08:20:58 PM AdminPage - INFO :  ***** Table Body is Visible Now *****
+03/01/2025 08:20:58 PM AdminPage - DEBUG : Waiting for all elements to present with locator: ('xpath', "//div[@class='oxd-table-card']//div[@role='row']//div[@role='cell'][3]")
+03/01/2025 08:20:58 PM AdminPage - INFO : Presence of All Elements Located
+03/01/2025 08:20:58 PM AdminPage - DEBUG : Waiting for all elements to present with locator: ('xpath', "//div[@class='oxd-table-card']//div[@role='row']//div[@role='cell'][2]")
+03/01/2025 08:20:58 PM AdminPage - INFO : Presence of All Elements Located
+03/01/2025 08:20:58 PM setup_and_teardown_cls - INFO :  =========== test_search_by_role_and_username_valid_3___Admin____Admin__ Ended ==========  
+03/01/2025 08:21:00 PM setup_and_teardown_cls - INFO : Test Session Ended Successfully
+03/01/2025 08:21:52 PM setup_and_teardown_cls - INFO :  Headless Argument Not Provided 
+03/01/2025 08:21:52 PM setup_and_teardown_cls - INFO :  Test Setup Started in Foreground with UI and not headless Mode
+03/01/2025 08:21:58 PM setup_and_teardown_cls - INFO : ***** Website Opened *****
+03/01/2025 08:21:58 PM setup_and_teardown_cls - INFO : ***** Browser Window Maximized *****
+03/01/2025 08:21:58 PM HomePage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//input[contains(@placeholder,'name')]")
+03/01/2025 08:21:59 PM HomePage - INFO : Element found visible
+03/01/2025 08:21:59 PM HomePage - INFO : ***** User Name Sent *****
+03/01/2025 08:21:59 PM HomePage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//input[contains(@placeholder,'ssword')]")
+03/01/2025 08:21:59 PM HomePage - INFO : Element found visible
+03/01/2025 08:21:59 PM HomePage - INFO : ***** Password Sent *****
+03/01/2025 08:21:59 PM HomePage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//button[normalize-space()='Login']") 
+03/01/2025 08:21:59 PM HomePage - INFO : Element found clickable
+03/01/2025 08:21:59 PM HomePage - INFO : ***** Login Button Clicked *****
+03/01/2025 08:21:59 PM DashboardPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//a[@href='/web/index.php/admin/viewAdminModule']/span[normalize-space()='Admin']") 
+03/01/2025 08:22:01 PM DashboardPage - INFO : Element found clickable
+03/01/2025 08:22:02 PM DashboardPage - INFO : ***** Admin Side Menu Clicked *****
+03/01/2025 08:22:02 PM setup_and_teardown_cls - INFO : ***** Setup Done *****
+03/01/2025 08:22:02 PM setup_and_teardown_cls - INFO :  =========== test_add_user_1___Admin____Enabled____test____Orange_Test__ Started ==========  
+03/01/2025 08:22:03 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//button[normalize-space()='Add']") 
+03/01/2025 08:22:04 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:22:04 PM AdminPage - INFO : ***** Add Button Clicked *****
+03/01/2025 08:22:04 PM AdminFormPage - DEBUG : Waiting for ALL elements to be visible with locator:('xpath', "//div[@class='oxd-select-text-input']")
+03/01/2025 08:22:05 PM AdminFormPage - INFO :  ***** 0th Selection Element i.e Role dropdown is visible *****
+03/01/2025 08:22:05 PM AdminFormPage - INFO : ***** Role Dropdown clicked *****
+03/01/2025 08:22:05 PM AdminFormPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//div[@role='listbox']//span[contains(text(),'Admin')]") 
+03/01/2025 08:22:05 PM AdminFormPage - INFO : Element found clickable
+03/01/2025 08:22:05 PM AdminFormPage - INFO : ***** Role: Admin Clicked *****
+03/01/2025 08:22:05 PM AdminFormPage - DEBUG : Waiting for ALL elements to be visible with locator:('xpath', "//div[@class='oxd-select-text-input']")
+03/01/2025 08:22:05 PM AdminFormPage - INFO :  ***** 1st Selection Element i.e Status dropdown is visible *****
+03/01/2025 08:22:05 PM AdminFormPage - INFO : ***** Satus Dropdown Clicked *****
+03/01/2025 08:22:05 PM AdminFormPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//div[@role='listbox']//span[contains(text(),'Enabled')]") 
+03/01/2025 08:22:05 PM AdminFormPage - INFO : Element found clickable
+03/01/2025 08:22:05 PM AdminFormPage - INFO : ***** Status: Enabled Clicked *****
+03/01/2025 08:22:05 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//input[@placeholder='Type for hints...']")
+03/01/2025 08:22:05 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:22:05 PM AdminFormPage - INFO : ***** Sent Employee Name *****
+03/01/2025 08:22:05 PM AdminFormPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//div[@class='oxd-autocomplete-wrapper']//span[normalize-space()='Orange Test']") 
+03/01/2025 08:22:07 PM AdminFormPage - INFO : Element found clickable
+03/01/2025 08:22:07 PM AdminFormPage - INFO : *****Employee: Orange Test Clicked *****
+03/01/2025 08:22:07 PM AdminFormPage - INFO :  ***** User Name : jennifercarroll ***** 
+03/01/2025 08:22:07 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-form-row']//div[@class='oxd-grid-2 orangehrm-full-width-grid']//div[@class='oxd-grid-item oxd-grid-item--gutters']//div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@class='oxd-input oxd-input--active']")
+03/01/2025 08:22:07 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:22:07 PM AdminFormPage - INFO : ***** Sent Username *****
+03/01/2025 08:22:07 PM AdminFormPage - INFO : *9J)ufq
+03/01/2025 08:22:07 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-grid-item oxd-grid-item--gutters user-password-cell']//div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@type='password']")
+03/01/2025 08:22:07 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:22:07 PM AdminFormPage - INFO : ***** Sent Password *****
+03/01/2025 08:22:07 PM AdminFormPage - DEBUG : ***** Confirm Password : *9J)ufq *****
+03/01/2025 08:22:07 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-grid-item oxd-grid-item--gutters']//div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@type='password']")
+03/01/2025 08:22:07 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:22:07 PM AdminFormPage - INFO : ***** Sent Confirm Password *****
+03/01/2025 08:22:07 PM AdminFormPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//button[normalize-space()='Save']") 
+03/01/2025 08:22:07 PM AdminFormPage - INFO : Element found clickable
+03/01/2025 08:22:07 PM AdminFormPage - INFO : ***** Save Button Clicked *****
+03/01/2025 08:22:07 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', '//p[text()="Successfully Saved"]')
+03/01/2025 08:22:09 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:22:09 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', '//p[text()="Success"]')
+03/01/2025 08:22:09 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:22:09 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//h5[normalize-space()='System Users']")
+03/01/2025 08:22:12 PM AdminPage - INFO : Element found visible
+03/01/2025 08:22:12 PM setup_and_teardown_cls - INFO :  =========== test_add_user_1___Admin____Enabled____test____Orange_Test__ Ended ==========  
+03/01/2025 08:22:12 PM setup_and_teardown_cls - INFO :  =========== test_add_user_2___ESS____Disabled____test____Orange_Test__ Started ==========  
+03/01/2025 08:22:13 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//button[normalize-space()='Add']") 
+03/01/2025 08:22:13 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:22:14 PM AdminPage - INFO : ***** Add Button Clicked *****
+03/01/2025 08:22:14 PM AdminFormPage - DEBUG : Waiting for ALL elements to be visible with locator:('xpath', "//div[@class='oxd-select-text-input']")
+03/01/2025 08:22:14 PM AdminFormPage - INFO :  ***** 0th Selection Element i.e Role dropdown is visible *****
+03/01/2025 08:22:14 PM AdminFormPage - INFO : ***** Role Dropdown clicked *****
+03/01/2025 08:22:14 PM AdminFormPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//div[@role='listbox']//span[contains(text(),'ESS')]") 
+03/01/2025 08:22:14 PM AdminFormPage - INFO : Element found clickable
+03/01/2025 08:22:15 PM AdminFormPage - INFO : ***** Role: ESS Clicked *****
+03/01/2025 08:22:15 PM AdminFormPage - DEBUG : Waiting for ALL elements to be visible with locator:('xpath', "//div[@class='oxd-select-text-input']")
+03/01/2025 08:22:15 PM AdminFormPage - INFO :  ***** 1st Selection Element i.e Status dropdown is visible *****
+03/01/2025 08:22:15 PM AdminFormPage - INFO : ***** Satus Dropdown Clicked *****
+03/01/2025 08:22:15 PM AdminFormPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//div[@role='listbox']//span[contains(text(),'Disabled')]") 
+03/01/2025 08:22:15 PM AdminFormPage - INFO : Element found clickable
+03/01/2025 08:22:15 PM AdminFormPage - INFO : ***** Status: Disabled Clicked *****
+03/01/2025 08:22:15 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//input[@placeholder='Type for hints...']")
+03/01/2025 08:22:15 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:22:15 PM AdminFormPage - INFO : ***** Sent Employee Name *****
+03/01/2025 08:22:15 PM AdminFormPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//div[@class='oxd-autocomplete-wrapper']//span[normalize-space()='Orange Test']") 
+03/01/2025 08:22:16 PM AdminFormPage - INFO : Element found clickable
+03/01/2025 08:22:16 PM AdminFormPage - INFO : *****Employee: Orange Test Clicked *****
+03/01/2025 08:22:16 PM AdminFormPage - INFO :  ***** User Name : myerspatricia ***** 
+03/01/2025 08:22:16 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-form-row']//div[@class='oxd-grid-2 orangehrm-full-width-grid']//div[@class='oxd-grid-item oxd-grid-item--gutters']//div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@class='oxd-input oxd-input--active']")
+03/01/2025 08:22:16 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:22:17 PM AdminFormPage - INFO : ***** Sent Username *****
+03/01/2025 08:22:17 PM AdminFormPage - INFO : Iv!1Ia8
+03/01/2025 08:22:17 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-grid-item oxd-grid-item--gutters user-password-cell']//div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@type='password']")
+03/01/2025 08:22:17 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:22:17 PM AdminFormPage - INFO : ***** Sent Password *****
+03/01/2025 08:22:17 PM AdminFormPage - DEBUG : ***** Confirm Password : Iv!1Ia8 *****
+03/01/2025 08:22:17 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-grid-item oxd-grid-item--gutters']//div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@type='password']")
+03/01/2025 08:22:17 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:22:17 PM AdminFormPage - INFO : ***** Sent Confirm Password *****
+03/01/2025 08:22:17 PM AdminFormPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//button[normalize-space()='Save']") 
+03/01/2025 08:22:17 PM AdminFormPage - INFO : Element found clickable
+03/01/2025 08:22:17 PM AdminFormPage - INFO : ***** Save Button Clicked *****
+03/01/2025 08:22:17 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', '//p[text()="Successfully Saved"]')
+03/01/2025 08:22:18 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:22:18 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', '//p[text()="Success"]')
+03/01/2025 08:22:18 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:22:18 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//h5[normalize-space()='System Users']")
+03/01/2025 08:22:22 PM AdminPage - INFO : Element found visible
+03/01/2025 08:22:22 PM setup_and_teardown_cls - INFO :  =========== test_add_user_2___ESS____Disabled____test____Orange_Test__ Ended ==========  
+03/01/2025 08:22:22 PM setup_and_teardown_cls - INFO :  =========== test_add_user_3___Admin____Disabled____test____Orange_Test__ Started ==========  
+03/01/2025 08:22:22 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//button[normalize-space()='Add']") 
+03/01/2025 08:22:23 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:22:23 PM AdminPage - INFO : ***** Add Button Clicked *****
+03/01/2025 08:22:23 PM AdminFormPage - DEBUG : Waiting for ALL elements to be visible with locator:('xpath', "//div[@class='oxd-select-text-input']")
+03/01/2025 08:22:24 PM AdminFormPage - INFO :  ***** 0th Selection Element i.e Role dropdown is visible *****
+03/01/2025 08:22:24 PM AdminFormPage - INFO : ***** Role Dropdown clicked *****
+03/01/2025 08:22:24 PM AdminFormPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//div[@role='listbox']//span[contains(text(),'Admin')]") 
+03/01/2025 08:22:24 PM AdminFormPage - INFO : Element found clickable
+03/01/2025 08:22:24 PM AdminFormPage - INFO : ***** Role: Admin Clicked *****
+03/01/2025 08:22:24 PM AdminFormPage - DEBUG : Waiting for ALL elements to be visible with locator:('xpath', "//div[@class='oxd-select-text-input']")
+03/01/2025 08:22:24 PM AdminFormPage - INFO :  ***** 1st Selection Element i.e Status dropdown is visible *****
+03/01/2025 08:22:24 PM AdminFormPage - INFO : ***** Satus Dropdown Clicked *****
+03/01/2025 08:22:24 PM AdminFormPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//div[@role='listbox']//span[contains(text(),'Disabled')]") 
+03/01/2025 08:22:24 PM AdminFormPage - INFO : Element found clickable
+03/01/2025 08:22:24 PM AdminFormPage - INFO : ***** Status: Disabled Clicked *****
+03/01/2025 08:22:24 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//input[@placeholder='Type for hints...']")
+03/01/2025 08:22:24 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:22:24 PM AdminFormPage - INFO : ***** Sent Employee Name *****
+03/01/2025 08:22:24 PM AdminFormPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//div[@class='oxd-autocomplete-wrapper']//span[normalize-space()='Orange Test']") 
+03/01/2025 08:22:26 PM AdminFormPage - INFO : Element found clickable
+03/01/2025 08:22:26 PM AdminFormPage - INFO : *****Employee: Orange Test Clicked *****
+03/01/2025 08:22:26 PM AdminFormPage - INFO :  ***** User Name : brandy97 ***** 
+03/01/2025 08:22:26 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-form-row']//div[@class='oxd-grid-2 orangehrm-full-width-grid']//div[@class='oxd-grid-item oxd-grid-item--gutters']//div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@class='oxd-input oxd-input--active']")
+03/01/2025 08:22:26 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:22:26 PM AdminFormPage - INFO : ***** Sent Username *****
+03/01/2025 08:22:26 PM AdminFormPage - INFO : +3OGZHb
+03/01/2025 08:22:26 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-grid-item oxd-grid-item--gutters user-password-cell']//div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@type='password']")
+03/01/2025 08:22:26 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:22:26 PM AdminFormPage - INFO : ***** Sent Password *****
+03/01/2025 08:22:26 PM AdminFormPage - DEBUG : ***** Confirm Password : +3OGZHb *****
+03/01/2025 08:22:26 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-grid-item oxd-grid-item--gutters']//div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@type='password']")
+03/01/2025 08:22:26 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:22:26 PM AdminFormPage - INFO : ***** Sent Confirm Password *****
+03/01/2025 08:22:26 PM AdminFormPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//button[normalize-space()='Save']") 
+03/01/2025 08:22:26 PM AdminFormPage - INFO : Element found clickable
+03/01/2025 08:22:26 PM AdminFormPage - INFO : ***** Save Button Clicked *****
+03/01/2025 08:22:26 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', '//p[text()="Successfully Saved"]')
+03/01/2025 08:22:28 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:22:28 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', '//p[text()="Success"]')
+03/01/2025 08:22:28 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:22:28 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//h5[normalize-space()='System Users']")
+03/01/2025 08:22:31 PM AdminPage - INFO : Element found visible
+03/01/2025 08:22:31 PM setup_and_teardown_cls - INFO :  =========== test_add_user_3___Admin____Disabled____test____Orange_Test__ Ended ==========  
+03/01/2025 08:22:31 PM setup_and_teardown_cls - INFO :  =========== test_add_user_4___ESS____Enabled____test____Orange_Test__ Started ==========  
+03/01/2025 08:22:31 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//button[normalize-space()='Add']") 
+03/01/2025 08:22:32 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:22:32 PM AdminPage - INFO : ***** Add Button Clicked *****
+03/01/2025 08:22:32 PM AdminFormPage - DEBUG : Waiting for ALL elements to be visible with locator:('xpath', "//div[@class='oxd-select-text-input']")
+03/01/2025 08:22:33 PM AdminFormPage - INFO :  ***** 0th Selection Element i.e Role dropdown is visible *****
+03/01/2025 08:22:33 PM AdminFormPage - INFO : ***** Role Dropdown clicked *****
+03/01/2025 08:22:33 PM AdminFormPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//div[@role='listbox']//span[contains(text(),'ESS')]") 
+03/01/2025 08:22:33 PM AdminFormPage - INFO : Element found clickable
+03/01/2025 08:22:33 PM AdminFormPage - INFO : ***** Role: ESS Clicked *****
+03/01/2025 08:22:33 PM AdminFormPage - DEBUG : Waiting for ALL elements to be visible with locator:('xpath', "//div[@class='oxd-select-text-input']")
+03/01/2025 08:22:33 PM AdminFormPage - INFO :  ***** 1st Selection Element i.e Status dropdown is visible *****
+03/01/2025 08:22:33 PM AdminFormPage - INFO : ***** Satus Dropdown Clicked *****
+03/01/2025 08:22:33 PM AdminFormPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//div[@role='listbox']//span[contains(text(),'Enabled')]") 
+03/01/2025 08:22:33 PM AdminFormPage - INFO : Element found clickable
+03/01/2025 08:22:33 PM AdminFormPage - INFO : ***** Status: Enabled Clicked *****
+03/01/2025 08:22:33 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//input[@placeholder='Type for hints...']")
+03/01/2025 08:22:33 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:22:33 PM AdminFormPage - INFO : ***** Sent Employee Name *****
+03/01/2025 08:22:33 PM AdminFormPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//div[@class='oxd-autocomplete-wrapper']//span[normalize-space()='Orange Test']") 
+03/01/2025 08:22:35 PM AdminFormPage - INFO : Element found clickable
+03/01/2025 08:22:35 PM AdminFormPage - INFO : *****Employee: Orange Test Clicked *****
+03/01/2025 08:22:35 PM AdminFormPage - INFO :  ***** User Name : williamsanthony ***** 
+03/01/2025 08:22:35 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-form-row']//div[@class='oxd-grid-2 orangehrm-full-width-grid']//div[@class='oxd-grid-item oxd-grid-item--gutters']//div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@class='oxd-input oxd-input--active']")
+03/01/2025 08:22:35 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:22:35 PM AdminFormPage - INFO : ***** Sent Username *****
+03/01/2025 08:22:35 PM AdminFormPage - INFO : Bk&8bVl
+03/01/2025 08:22:35 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-grid-item oxd-grid-item--gutters user-password-cell']//div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@type='password']")
+03/01/2025 08:22:35 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:22:35 PM AdminFormPage - INFO : ***** Sent Password *****
+03/01/2025 08:22:35 PM AdminFormPage - DEBUG : ***** Confirm Password : Bk&8bVl *****
+03/01/2025 08:22:35 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-grid-item oxd-grid-item--gutters']//div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@type='password']")
+03/01/2025 08:22:35 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:22:35 PM AdminFormPage - INFO : ***** Sent Confirm Password *****
+03/01/2025 08:22:35 PM AdminFormPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//button[normalize-space()='Save']") 
+03/01/2025 08:22:35 PM AdminFormPage - INFO : Element found clickable
+03/01/2025 08:22:35 PM AdminFormPage - INFO : ***** Save Button Clicked *****
+03/01/2025 08:22:35 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', '//p[text()="Successfully Saved"]')
+03/01/2025 08:22:38 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:22:38 PM AdminFormPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', '//p[text()="Success"]')
+03/01/2025 08:22:38 PM AdminFormPage - INFO : Element found visible
+03/01/2025 08:22:38 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//h5[normalize-space()='System Users']")
+03/01/2025 08:22:40 PM AdminPage - INFO : Element found visible
+03/01/2025 08:22:40 PM setup_and_teardown_cls - INFO :  =========== test_add_user_4___ESS____Enabled____test____Orange_Test__ Ended ==========  
+03/01/2025 08:22:40 PM setup_and_teardown_cls - INFO :  =========== test_by_role_and_status_filter_valid_1___Admin____Enabled__ Started ==========  
+03/01/2025 08:22:41 PM AdminPage - DEBUG : Waiting for ALL elements to be visible with locator:('xpath', "//div[@class='oxd-select-text-input']")
+03/01/2025 08:22:42 PM AdminPage - INFO :  ***** Role Selection Element is Visible *****  
+03/01/2025 08:22:42 PM AdminPage - INFO : ***** Role Drop Down Clicked *****
+03/01/2025 08:22:42 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//div[@class='oxd-select-option'][@role='option'][normalize-space()='Admin']") 
+03/01/2025 08:22:42 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:22:42 PM AdminPage - INFO : ***** Role: Admin Option Clicked *****
+03/01/2025 08:22:42 PM AdminPage - DEBUG : Waiting for ALL elements to be visible with locator:('xpath', "//div[@class='oxd-select-text-input']")
+03/01/2025 08:22:42 PM AdminPage - INFO :  ***** Status Selection Element is Visible *****  
+03/01/2025 08:22:42 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', '//div[@role="option"]/span[normalize-space()="Enabled"]') 
+03/01/2025 08:22:42 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:22:42 PM AdminPage - INFO : *****Status: Enabled Option Clicked *****
+03/01/2025 08:22:42 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//button[normalize-space()='Search']") 
+03/01/2025 08:22:42 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:22:42 PM AdminPage - INFO : ***** Search Button Clicked *****
+03/01/2025 08:22:42 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-table-body']")
+03/01/2025 08:22:43 PM AdminPage - INFO : Element found visible
+03/01/2025 08:22:43 PM AdminPage - INFO :  ***** Table Body is Visible Now *****
+03/01/2025 08:22:43 PM AdminPage - DEBUG : Waiting for all elements to present with locator: ('xpath', "//div[@class='oxd-table-card']//div[@role='row']//div[@role='cell'][5]")
+03/01/2025 08:22:43 PM AdminPage - INFO : Presence of All Elements Located
+03/01/2025 08:22:43 PM AdminPage - DEBUG : Waiting for all elements to present with locator: ('xpath', "//div[@class='oxd-table-card']//div[@role='row']//div[@role='cell'][3]")
+03/01/2025 08:22:43 PM AdminPage - INFO : Presence of All Elements Located
+03/01/2025 08:22:43 PM setup_and_teardown_cls - INFO :  =========== test_by_role_and_status_filter_valid_1___Admin____Enabled__ Ended ==========  
+03/01/2025 08:22:43 PM setup_and_teardown_cls - INFO :  =========== test_by_role_and_status_filter_valid_2___ESS____Enabled__ Started ==========  
+03/01/2025 08:22:43 PM AdminPage - DEBUG : Waiting for ALL elements to be visible with locator:('xpath', "//div[@class='oxd-select-text-input']")
+03/01/2025 08:22:44 PM AdminPage - INFO :  ***** Role Selection Element is Visible *****  
+03/01/2025 08:22:44 PM AdminPage - INFO : ***** Role Drop Down Clicked *****
+03/01/2025 08:22:44 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//div[@class='oxd-select-option'][@role='option'][normalize-space()='ESS']") 
+03/01/2025 08:22:44 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:22:44 PM AdminPage - INFO : ***** Role: ESS Option Clicked *****
+03/01/2025 08:22:44 PM AdminPage - DEBUG : Waiting for ALL elements to be visible with locator:('xpath', "//div[@class='oxd-select-text-input']")
+03/01/2025 08:22:44 PM AdminPage - INFO :  ***** Status Selection Element is Visible *****  
+03/01/2025 08:22:44 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', '//div[@role="option"]/span[normalize-space()="Enabled"]') 
+03/01/2025 08:22:44 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:22:44 PM AdminPage - INFO : *****Status: Enabled Option Clicked *****
+03/01/2025 08:22:44 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//button[normalize-space()='Search']") 
+03/01/2025 08:22:44 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:22:44 PM AdminPage - INFO : ***** Search Button Clicked *****
+03/01/2025 08:22:44 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-table-body']")
+03/01/2025 08:22:45 PM AdminPage - INFO : Element found visible
+03/01/2025 08:22:45 PM AdminPage - INFO :  ***** Table Body is Visible Now *****
+03/01/2025 08:22:45 PM AdminPage - DEBUG : Waiting for all elements to present with locator: ('xpath', "//div[@class='oxd-table-card']//div[@role='row']//div[@role='cell'][5]")
+03/01/2025 08:22:45 PM AdminPage - INFO : Presence of All Elements Located
+03/01/2025 08:22:45 PM AdminPage - DEBUG : Waiting for all elements to present with locator: ('xpath', "//div[@class='oxd-table-card']//div[@role='row']//div[@role='cell'][3]")
+03/01/2025 08:22:45 PM AdminPage - INFO : Presence of All Elements Located
+03/01/2025 08:22:45 PM setup_and_teardown_cls - INFO :  =========== test_by_role_and_status_filter_valid_2___ESS____Enabled__ Ended ==========  
+03/01/2025 08:22:45 PM setup_and_teardown_cls - INFO :  =========== test_role_filter_1___Admin__ Started ==========  
+03/01/2025 08:22:45 PM AdminPage - DEBUG : Waiting for ALL elements to be visible with locator:('xpath', "//div[@class='oxd-select-text-input']")
+03/01/2025 08:22:46 PM AdminPage - INFO :  ***** Role Selection Element is Visible *****  
+03/01/2025 08:22:46 PM AdminPage - INFO : ***** Role Drop Down Clicked *****
+03/01/2025 08:22:46 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//div[@class='oxd-select-option'][@role='option'][normalize-space()='Admin']") 
+03/01/2025 08:22:46 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:22:46 PM AdminPage - INFO : ***** Role: Admin Option Clicked *****
+03/01/2025 08:22:46 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//button[normalize-space()='Search']") 
+03/01/2025 08:22:46 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:22:46 PM AdminPage - INFO : ***** Search Button Clicked *****
+03/01/2025 08:22:46 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-table-body']")
+03/01/2025 08:22:47 PM AdminPage - INFO : Element found visible
+03/01/2025 08:22:47 PM AdminPage - INFO :  ***** Table Body is Visible Now *****
+03/01/2025 08:22:47 PM AdminPage - DEBUG : Waiting for all elements to present with locator: ('xpath', "//div[@class='oxd-table-card']//div[@role='row']//div[@role='cell'][3]")
+03/01/2025 08:22:47 PM AdminPage - INFO : Presence of All Elements Located
+03/01/2025 08:22:47 PM setup_and_teardown_cls - INFO :  =========== test_role_filter_1___Admin__ Ended ==========  
+03/01/2025 08:22:47 PM setup_and_teardown_cls - INFO :  =========== test_role_filter_2___ESS__ Started ==========  
+03/01/2025 08:22:47 PM AdminPage - DEBUG : Waiting for ALL elements to be visible with locator:('xpath', "//div[@class='oxd-select-text-input']")
+03/01/2025 08:22:48 PM AdminPage - INFO :  ***** Role Selection Element is Visible *****  
+03/01/2025 08:22:48 PM AdminPage - INFO : ***** Role Drop Down Clicked *****
+03/01/2025 08:22:48 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//div[@class='oxd-select-option'][@role='option'][normalize-space()='ESS']") 
+03/01/2025 08:22:48 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:22:48 PM AdminPage - INFO : ***** Role: ESS Option Clicked *****
+03/01/2025 08:22:48 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//button[normalize-space()='Search']") 
+03/01/2025 08:22:48 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:22:48 PM AdminPage - INFO : ***** Search Button Clicked *****
+03/01/2025 08:22:48 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-table-body']")
+03/01/2025 08:22:49 PM AdminPage - INFO : Element found visible
+03/01/2025 08:22:49 PM AdminPage - INFO :  ***** Table Body is Visible Now *****
+03/01/2025 08:22:49 PM AdminPage - DEBUG : Waiting for all elements to present with locator: ('xpath', "//div[@class='oxd-table-card']//div[@role='row']//div[@role='cell'][3]")
+03/01/2025 08:22:49 PM AdminPage - INFO : Presence of All Elements Located
+03/01/2025 08:22:49 PM setup_and_teardown_cls - INFO :  =========== test_role_filter_2___ESS__ Ended ==========  
+03/01/2025 08:22:49 PM setup_and_teardown_cls - INFO :  =========== test_search_by_role_and_username_invalid_1___Admin____nosuchAdminuser__ Started ==========  
+03/01/2025 08:22:49 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@class='oxd-input oxd-input--active']")
+03/01/2025 08:22:50 PM AdminPage - INFO : Element found visible
+03/01/2025 08:22:50 PM AdminPage - INFO : ***** Sent User Name *****
+03/01/2025 08:22:50 PM AdminPage - DEBUG : Waiting for ALL elements to be visible with locator:('xpath', "//div[@class='oxd-select-text-input']")
+03/01/2025 08:22:50 PM AdminPage - INFO :  ***** Role Selection Element is Visible *****  
+03/01/2025 08:22:50 PM AdminPage - INFO : ***** Role Drop Down Clicked *****
+03/01/2025 08:22:50 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//div[@class='oxd-select-option'][@role='option'][normalize-space()='Admin']") 
+03/01/2025 08:22:50 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:22:50 PM AdminPage - INFO : ***** Role: Admin Option Clicked *****
+03/01/2025 08:22:50 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//button[normalize-space()='Search']") 
+03/01/2025 08:22:50 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:22:50 PM AdminPage - INFO : ***** Search Button Clicked *****
+03/01/2025 08:22:50 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-table-body']")
+03/01/2025 08:22:51 PM AdminPage - INFO : Element found visible
+03/01/2025 08:22:51 PM AdminPage - INFO :  ***** Table Body is Visible Now *****
+03/01/2025 08:22:51 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', '//*[@id="oxd-toaster_1"]//p[normalize-space()="Info"]')
+03/01/2025 08:22:51 PM AdminPage - INFO : Element found visible
+03/01/2025 08:22:51 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', '//*[@id="oxd-toaster_1"]//p[normalize-space()="No Records Found"]')
+03/01/2025 08:22:51 PM AdminPage - INFO : Element found visible
+03/01/2025 08:22:51 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='orangehrm-horizontal-padding orangehrm-vertical-padding']/span[.='No Records Found']")
+03/01/2025 08:22:51 PM AdminPage - INFO : Element found visible
+03/01/2025 08:22:51 PM setup_and_teardown_cls - INFO :  =========== test_search_by_role_and_username_invalid_1___Admin____nosuchAdminuser__ Ended ==========  
+03/01/2025 08:22:51 PM setup_and_teardown_cls - INFO :  =========== test_search_by_role_and_username_invalid_2___ESS____nosuchESSuser__ Started ==========  
+03/01/2025 08:22:51 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@class='oxd-input oxd-input--active']")
+03/01/2025 08:22:52 PM AdminPage - INFO : Element found visible
+03/01/2025 08:22:52 PM AdminPage - INFO : ***** Sent User Name *****
+03/01/2025 08:22:52 PM AdminPage - DEBUG : Waiting for ALL elements to be visible with locator:('xpath', "//div[@class='oxd-select-text-input']")
+03/01/2025 08:22:52 PM AdminPage - INFO :  ***** Role Selection Element is Visible *****  
+03/01/2025 08:22:52 PM AdminPage - INFO : ***** Role Drop Down Clicked *****
+03/01/2025 08:22:52 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//div[@class='oxd-select-option'][@role='option'][normalize-space()='ESS']") 
+03/01/2025 08:22:52 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:22:52 PM AdminPage - INFO : ***** Role: ESS Option Clicked *****
+03/01/2025 08:22:52 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//button[normalize-space()='Search']") 
+03/01/2025 08:22:52 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:22:52 PM AdminPage - INFO : ***** Search Button Clicked *****
+03/01/2025 08:22:52 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-table-body']")
+03/01/2025 08:22:53 PM AdminPage - INFO : Element found visible
+03/01/2025 08:22:53 PM AdminPage - INFO :  ***** Table Body is Visible Now *****
+03/01/2025 08:22:53 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', '//*[@id="oxd-toaster_1"]//p[normalize-space()="Info"]')
+03/01/2025 08:22:53 PM AdminPage - INFO : Element found visible
+03/01/2025 08:22:53 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', '//*[@id="oxd-toaster_1"]//p[normalize-space()="No Records Found"]')
+03/01/2025 08:22:53 PM AdminPage - INFO : Element found visible
+03/01/2025 08:22:53 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='orangehrm-horizontal-padding orangehrm-vertical-padding']/span[.='No Records Found']")
+03/01/2025 08:22:53 PM AdminPage - INFO : Element found visible
+03/01/2025 08:22:53 PM setup_and_teardown_cls - INFO :  =========== test_search_by_role_and_username_invalid_2___ESS____nosuchESSuser__ Ended ==========  
+03/01/2025 08:22:53 PM setup_and_teardown_cls - INFO :  =========== test_search_by_role_and_username_valid_1___Admin____Admin__ Started ==========  
+03/01/2025 08:22:53 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@class='oxd-input oxd-input--active']")
+03/01/2025 08:22:54 PM AdminPage - INFO : Element found visible
+03/01/2025 08:22:54 PM AdminPage - INFO : ***** Sent User Name *****
+03/01/2025 08:22:54 PM AdminPage - DEBUG : Waiting for ALL elements to be visible with locator:('xpath', "//div[@class='oxd-select-text-input']")
+03/01/2025 08:22:54 PM AdminPage - INFO :  ***** Role Selection Element is Visible *****  
+03/01/2025 08:22:54 PM AdminPage - INFO : ***** Role Drop Down Clicked *****
+03/01/2025 08:22:54 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//div[@class='oxd-select-option'][@role='option'][normalize-space()='Admin']") 
+03/01/2025 08:22:54 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:22:54 PM AdminPage - INFO : ***** Role: Admin Option Clicked *****
+03/01/2025 08:22:54 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//button[normalize-space()='Search']") 
+03/01/2025 08:22:54 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:22:54 PM AdminPage - INFO : ***** Search Button Clicked *****
+03/01/2025 08:22:54 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-table-body']")
+03/01/2025 08:22:55 PM AdminPage - INFO : Element found visible
+03/01/2025 08:22:55 PM AdminPage - INFO :  ***** Table Body is Visible Now *****
+03/01/2025 08:22:55 PM AdminPage - DEBUG : Waiting for all elements to present with locator: ('xpath', "//div[@class='oxd-table-card']//div[@role='row']//div[@role='cell'][3]")
+03/01/2025 08:22:55 PM AdminPage - INFO : Presence of All Elements Located
+03/01/2025 08:22:55 PM AdminPage - DEBUG : Waiting for all elements to present with locator: ('xpath', "//div[@class='oxd-table-card']//div[@role='row']//div[@role='cell'][2]")
+03/01/2025 08:22:55 PM AdminPage - INFO : Presence of All Elements Located
+03/01/2025 08:22:55 PM setup_and_teardown_cls - INFO :  =========== test_search_by_role_and_username_valid_1___Admin____Admin__ Ended ==========  
+03/01/2025 08:22:55 PM setup_and_teardown_cls - INFO :  =========== test_search_by_role_and_username_valid_2___ESS____FMLName__ Started ==========  
+03/01/2025 08:22:55 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@class='oxd-input oxd-input--active']")
+03/01/2025 08:22:56 PM AdminPage - INFO : Element found visible
+03/01/2025 08:22:56 PM AdminPage - INFO : ***** Sent User Name *****
+03/01/2025 08:22:56 PM AdminPage - DEBUG : Waiting for ALL elements to be visible with locator:('xpath', "//div[@class='oxd-select-text-input']")
+03/01/2025 08:22:56 PM AdminPage - INFO :  ***** Role Selection Element is Visible *****  
+03/01/2025 08:22:56 PM AdminPage - INFO : ***** Role Drop Down Clicked *****
+03/01/2025 08:22:56 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//div[@class='oxd-select-option'][@role='option'][normalize-space()='ESS']") 
+03/01/2025 08:22:56 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:22:56 PM AdminPage - INFO : ***** Role: ESS Option Clicked *****
+03/01/2025 08:22:56 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//button[normalize-space()='Search']") 
+03/01/2025 08:22:56 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:22:56 PM AdminPage - INFO : ***** Search Button Clicked *****
+03/01/2025 08:22:56 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-table-body']")
+03/01/2025 08:22:57 PM AdminPage - INFO : Element found visible
+03/01/2025 08:22:57 PM AdminPage - INFO :  ***** Table Body is Visible Now *****
+03/01/2025 08:22:57 PM AdminPage - DEBUG : Waiting for all elements to present with locator: ('xpath', "//div[@class='oxd-table-card']//div[@role='row']//div[@role='cell'][3]")
+03/01/2025 08:23:27 PM AdminPage - ERROR : While looking for presence of all elements - TimeoutException Occurred.
+03/01/2025 08:23:27 PM setup_and_teardown_cls - INFO :  =========== test_search_by_role_and_username_valid_2___ESS____FMLName__ Ended ==========  
+03/01/2025 08:23:27 PM setup_and_teardown_cls - INFO :  =========== test_search_by_role_and_username_valid_2___ESS____FMLName__ Started ==========  
+03/01/2025 08:23:28 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@class='oxd-input oxd-input--active']")
+03/01/2025 08:23:28 PM AdminPage - INFO : Element found visible
+03/01/2025 08:23:28 PM AdminPage - INFO : ***** Sent User Name *****
+03/01/2025 08:23:28 PM AdminPage - DEBUG : Waiting for ALL elements to be visible with locator:('xpath', "//div[@class='oxd-select-text-input']")
+03/01/2025 08:23:28 PM AdminPage - INFO :  ***** Role Selection Element is Visible *****  
+03/01/2025 08:23:28 PM AdminPage - INFO : ***** Role Drop Down Clicked *****
+03/01/2025 08:23:28 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//div[@class='oxd-select-option'][@role='option'][normalize-space()='ESS']") 
+03/01/2025 08:23:28 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:23:29 PM AdminPage - INFO : ***** Role: ESS Option Clicked *****
+03/01/2025 08:23:29 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//button[normalize-space()='Search']") 
+03/01/2025 08:23:29 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:23:29 PM AdminPage - INFO : ***** Search Button Clicked *****
+03/01/2025 08:23:29 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-table-body']")
+03/01/2025 08:23:29 PM AdminPage - INFO : Element found visible
+03/01/2025 08:23:29 PM AdminPage - INFO :  ***** Table Body is Visible Now *****
+03/01/2025 08:23:29 PM AdminPage - DEBUG : Waiting for all elements to present with locator: ('xpath', "//div[@class='oxd-table-card']//div[@role='row']//div[@role='cell'][3]")
+03/01/2025 08:24:00 PM AdminPage - ERROR : While looking for presence of all elements - TimeoutException Occurred.
+03/01/2025 08:24:00 PM setup_and_teardown_cls - INFO :  =========== test_search_by_role_and_username_valid_2___ESS____FMLName__ Ended ==========  
+03/01/2025 08:24:00 PM setup_and_teardown_cls - INFO :  =========== test_search_by_role_and_username_valid_2___ESS____FMLName__ Started ==========  
+03/01/2025 08:24:00 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@class='oxd-input oxd-input--active']")
+03/01/2025 08:24:01 PM AdminPage - INFO : Element found visible
+03/01/2025 08:24:01 PM AdminPage - INFO : ***** Sent User Name *****
+03/01/2025 08:24:01 PM AdminPage - DEBUG : Waiting for ALL elements to be visible with locator:('xpath', "//div[@class='oxd-select-text-input']")
+03/01/2025 08:24:01 PM AdminPage - INFO :  ***** Role Selection Element is Visible *****  
+03/01/2025 08:24:01 PM AdminPage - INFO : ***** Role Drop Down Clicked *****
+03/01/2025 08:24:01 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//div[@class='oxd-select-option'][@role='option'][normalize-space()='ESS']") 
+03/01/2025 08:24:01 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:24:01 PM AdminPage - INFO : ***** Role: ESS Option Clicked *****
+03/01/2025 08:24:01 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//button[normalize-space()='Search']") 
+03/01/2025 08:24:01 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:24:01 PM AdminPage - INFO : ***** Search Button Clicked *****
+03/01/2025 08:24:01 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-table-body']")
+03/01/2025 08:24:02 PM AdminPage - INFO : Element found visible
+03/01/2025 08:24:02 PM AdminPage - INFO :  ***** Table Body is Visible Now *****
+03/01/2025 08:24:02 PM AdminPage - DEBUG : Waiting for all elements to present with locator: ('xpath', "//div[@class='oxd-table-card']//div[@role='row']//div[@role='cell'][3]")
+03/01/2025 08:24:32 PM AdminPage - ERROR : While looking for presence of all elements - TimeoutException Occurred.
+03/01/2025 08:24:32 PM setup_and_teardown_cls - INFO :  =========== test_search_by_role_and_username_valid_2___ESS____FMLName__ Ended ==========  
+03/01/2025 08:24:32 PM setup_and_teardown_cls - INFO :  =========== test_search_by_role_and_username_valid_3___Admin____Admin__ Started ==========  
+03/01/2025 08:24:33 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@class='oxd-input oxd-input--active']")
+03/01/2025 08:24:33 PM AdminPage - INFO : Element found visible
+03/01/2025 08:24:33 PM AdminPage - INFO : ***** Sent User Name *****
+03/01/2025 08:24:33 PM AdminPage - DEBUG : Waiting for ALL elements to be visible with locator:('xpath', "//div[@class='oxd-select-text-input']")
+03/01/2025 08:24:33 PM AdminPage - INFO :  ***** Role Selection Element is Visible *****  
+03/01/2025 08:24:33 PM AdminPage - INFO : ***** Role Drop Down Clicked *****
+03/01/2025 08:24:33 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//div[@class='oxd-select-option'][@role='option'][normalize-space()='Admin']") 
+03/01/2025 08:24:34 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:24:34 PM AdminPage - INFO : ***** Role: Admin Option Clicked *****
+03/01/2025 08:24:34 PM AdminPage - DEBUG : Waiting for Element to be clickable with locator: ('xpath', "//button[normalize-space()='Search']") 
+03/01/2025 08:24:34 PM AdminPage - INFO : Element found clickable
+03/01/2025 08:24:34 PM AdminPage - INFO : ***** Search Button Clicked *****
+03/01/2025 08:24:34 PM AdminPage - DEBUG : Waiting for Element to be visible with locator: ('xpath', "//div[@class='oxd-table-body']")
+03/01/2025 08:24:34 PM AdminPage - INFO : Element found visible
+03/01/2025 08:24:34 PM AdminPage - INFO :  ***** Table Body is Visible Now *****
+03/01/2025 08:24:34 PM AdminPage - DEBUG : Waiting for all elements to present with locator: ('xpath', "//div[@class='oxd-table-card']//div[@role='row']//div[@role='cell'][3]")
+03/01/2025 08:24:34 PM AdminPage - INFO : Presence of All Elements Located
+03/01/2025 08:24:34 PM AdminPage - DEBUG : Waiting for all elements to present with locator: ('xpath', "//div[@class='oxd-table-card']//div[@role='row']//div[@role='cell'][2]")
+03/01/2025 08:24:34 PM AdminPage - INFO : Presence of All Elements Located
+03/01/2025 08:24:34 PM setup_and_teardown_cls - INFO :  =========== test_search_by_role_and_username_valid_3___Admin____Admin__ Ended ==========  
+03/01/2025 08:24:37 PM setup_and_teardown_cls - INFO : Test Session Ended Successfully

@@ -1,0 +1,11 @@
+ddt
+Faker
+pytest
+pytest-html
+pytest-rerunfailures
+pytest-retry
+pytest-xdist
+selenium
+softest
+tenacity
+webdriver-manager
