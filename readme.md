@@ -26,4 +26,6 @@ To handle flaky tests, the framework uses the `pytest-rerunfailures` plugin. Fai
 ## Running Tests
 - To run the tests, go to testCases and just type **pytest** in terminal
 
+## Parallel Execution
+- To run tests parallely , specify it in pytest.ini using argument **"-n" number_of_parallel_executions**.
 #pytest # selenium #python #automation #QA
